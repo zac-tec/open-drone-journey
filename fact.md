@@ -86,3 +86,11 @@ At OpenDrone-hw/AM32 commit 5f8978eeb618c14bb396af7ac049d2a5e7b5a508 on feat/ope
 
 ### F-015 — DShot input handling (source-inspected)
 At the same commit, Src/dshot.c computeDshotDMA() decodes capture timing, validates check bits, reconstructs a command, and conditionally updates newinput. Startup, arming, and programming modes affect behavior; no hardware execution has been verified.
+
+## Openness and procurement — 2026-10-15
+
+### F-016 — Purchasing and openness are separate properties
+A board can be purchased and open-source. Hardware-source availability and firmware-source availability must be evaluated separately. Our concrete evidence is the published OpenESC KiCad design and AM32 source; see esc-open-source-comparison.md. No blanket claim about all commercial ESCs is made.
+
+### F-017 — Video test scope (developer-reported)
+At 9:09–9:44 in TwAmmPxOpTM, the developer describes a full-throttle run and reports battery exhaustion after about 90 seconds with the drone surviving. This does not independently establish rated continuous current, lifetime, or superiority to a named competitor. See comparison source record.

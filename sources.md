@@ -23,3 +23,7 @@ https://www.youtube.com/watch?v=2LaiScfoYGQ — full auto-generated English tran
 ## S-011 — OpenDrone AM32 source baseline
 
 Repository https://github.com/OpenDrone-hw/AM32 ; branch feat/openesc-20-target; commit 5f8978eeb618c14bb396af7ac049d2a5e7b5a508. Inspected AGENTS.md, README.md, Makefile, Inc/targets.h, Src/dshot.c, and selected Src/main.c regions. Source map and unresolved hardware correspondence in esc-firmware-guide.md. No compilation or flashing.
+
+## S-012 — Developer ESC video
+
+https://www.youtube.com/watch?v=TwAmmPxOpTM — full auto-generated transcript and developer description/chapters reviewed 2026-10-15. Timestamped findings in esc-open-source-comparison.md; demonstrations are reported results, not our measurements.

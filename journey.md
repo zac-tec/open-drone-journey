@@ -54,3 +54,7 @@ User requested using the available OpenDrone ESC firmware as a guide toward our 
 ## First live KiCad schematic session
 
 Prepared the pinned OpenESC-30x30 checkout and its pinned shared library. Launched verified official KiCad 10.0.6 from its mounted image due to insufficient space for full installation. Opened root schematic and ESC1 successfully. Next discussion starts with Q1/Q2 and their phase-A switch node, then driver U4. No circuit edits or electrical tests. See kicad-walkthrough.md.
+
+## Purchased versus open-source ESCs
+
+User requested actual developer-backed differences. Reviewed full ESC-video transcript and published description, checked local hardware files/license and prior firmware inspection. Recorded access/reproduction benefits separately from unproven performance, cost, and reliability claims. Exact purchased comparator remains unspecified.
