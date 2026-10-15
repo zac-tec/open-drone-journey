@@ -62,3 +62,7 @@ User requested actual developer-backed differences. Reviewed full ESC-video tran
 ## Named T-Motor comparator
 
 User supplied Velox V45A V2 and its Robokits link. Recorded listing claims/stock and identity inconsistencies; compared closed BLHeli_32 with AM32 source access and OpenDrone hardware files. Recorded BLHeli_32 lifecycle separately in history.md. No purchase, compatibility approval, or performance ranking. See velox-v45a-v2-comparison.md.
+
+## MOSFET alternatives in India — 2026-10-15
+
+User identified SP40N01GHNK sourcing difficulty and asked whether replacement requires bootcode changes. Reviewed original MOSFET and driver datasheets, distinguished bootloader from application timing, and recorded a qualification checklist. TI CSD18540Q5B is an educational candidate only, not approved or stock-verified. No hardware or firmware changed. See mosfet-substitution.md.

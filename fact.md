@@ -97,3 +97,7 @@ At 9:09–9:44 in TwAmmPxOpTM, the developer describes a full-throttle run and r
 
 ### F-018 — BLHeli firmware variants have different openness
 The developer README explicitly identifies BLHeli_32 as closed source and BLHeli_S as open source; similar branding is not evidence of identical licensing. Source: https://github.com/bitdump/BLHeli , checked 2026-10-15. User's Robokits V45A V2 listing advertises BLHeli_32; actual physical revision remains uninspected.
+
+## MOSFET substitution — 2026-10-15
+
+A MOSFET-only substitution normally leaves the bootloader unchanged when MCU, boot/input interface and memory layout remain the same. Electrical suitability must still be established, and application timing/configuration or PCB components may require changes. SP40N01GHNK original datasheet specifies 40 V, maximum 1.5 mΩ at 10 V gate drive/20 A/25°C; its gate-charge test uses 20 V gate drive. No substitute has been qualified. Full evidence, conditions and limits: [mosfet-substitution.md](mosfet-substitution.md).

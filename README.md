@@ -35,3 +35,5 @@ Current study: [Motor and ESC, from schematics to our own hardware](motor-esc-st
 Communication study reference: [reviewed video and corrected protocol notes](communication-protocols.md).
 
 Firmware study: [OpenDrone AM32 source guide](esc-firmware-guide.md).
+
+- [MOSFET substitution: electrical requirements, firmware impact and qualification](mosfet-substitution.md)
