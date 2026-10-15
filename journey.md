@@ -38,3 +38,7 @@ Verified the GitHub CLI is authenticated as zac-tec with admin access to this re
 ## Motor/ESC-first direction
 
 Learner confirmed no hardware or tools and requested a fresh schematic-based start, studying necessary physics, mathematics, materials, electronics, and firmware toward independent product manufacturing. Created motor-esc-study.md and pinned OpenESC-30x30 to bf306934b5decc130ab1df6b653563ea16165e8e. Retrieved its channel schematic; identified major part values, but no complete circuit audit or experiment is claimed. FC-first order replaced by motor/ESC-first. Next: discuss rotation, commutation, and the first equations; then trace the power stage.
+
+## Communication reference review
+
+Reviewed the supplied six-interface video transcript. Created communication-protocols.md mapping timestamps and drone relevance; corrected UART detection, I²C addressing/loading, 1-Wire power/ground, SPI naming, and CAN reliability simplifications using primary sources. DShot remains the immediate ESC command topic and is not covered by this video. No hardware test or learner mastery claimed.

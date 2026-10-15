@@ -15,3 +15,7 @@ Record exact commits, document revisions, and video timestamps when a source sup
 | S-009 | https://www.ti.com/lit/pdf/slva714 | Gate-drive reference |
 
 Preserve upstream author, license, URL, commit/tag, accessed date, file path, applicable board revision, and firmware branch. A repository default branch may track upstream rather than contain the hardware-specific changes.
+
+## S-010 — Communication overview
+
+https://www.youtube.com/watch?v=2LaiScfoYGQ — full auto-generated English transcript reviewed on 2026-10-15, 0:00–10:28. Six-interface survey; corrections and primary references in communication-protocols.md. Visuals not independently reviewed.

@@ -67,3 +67,14 @@ Rotation-generated back-EMF vanishes at standstill, so a sensorless method relyi
 
 ### F-010 — Electrical/mechanical speed (sourced)
 For p rotor pole pairs, electrical frequency in Hz equals p times mechanical RPM divided by 60. Source: https://ww1.microchip.com/downloads/en/Appnotes/AN3998-Sensorless-BLDC-MC-AVR-MCU-Fam-DS00003998.pdf . Numerical examples in motor-esc-study.md are instructional, not selected motor specifications.
+
+## Communication corrections — 2026-10-15 (sourced, not measured)
+
+### F-011 — UART error detection
+Optional parity offers limited error detection; no automatic correction is implied. Source: ADI UART clock-accuracy article linked in communication-protocols.md.
+
+### F-012 — I²C address capacity
+Seven-bit addressing has reserved ranges; usual non-reserved addresses are 0x08–0x77 (112). Ten-bit addressing exists. Physical loading and address conflicts also limit a real bus. Source: NXP UM10204 Rev. 7.0, linked in communication-protocols.md.
+
+### F-013 — 1-Wire supply and return
+DS18B20 uses a data line and ground, with external or supported parasite power. One data wire does not remove the ground return. Source: manufacturer product/datasheet linked in communication-protocols.md.
