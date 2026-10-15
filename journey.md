@@ -50,3 +50,7 @@ Started conceptual DShot lesson separating command signaling, power-stage PWM, c
 ## Hardware and firmware together
 
 User requested using the available OpenDrone ESC firmware as a guide toward our own similar design. Inspected the OpenDrone AM32 fork and pinned its hardware-specific branch. Documented command decoding, target configuration, input processing, commutation landmarks, bootloader/application distinction, and the unresolved 20x20-versus-30x30 baseline. We will learn theory alongside actual schematic/code instead of treating firmware as a black box.
+
+## First live KiCad schematic session
+
+Prepared the pinned OpenESC-30x30 checkout and its pinned shared library. Launched verified official KiCad 10.0.6 from its mounted image due to insufficient space for full installation. Opened root schematic and ESC1 successfully. Next discussion starts with Q1/Q2 and their phase-A switch node, then driver U4. No circuit edits or electrical tests. See kicad-walkthrough.md.
