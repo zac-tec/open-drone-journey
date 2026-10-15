@@ -58,3 +58,7 @@ Prepared the pinned OpenESC-30x30 checkout and its pinned shared library. Launch
 ## Purchased versus open-source ESCs
 
 User requested actual developer-backed differences. Reviewed full ESC-video transcript and published description, checked local hardware files/license and prior firmware inspection. Recorded access/reproduction benefits separately from unproven performance, cost, and reliability claims. Exact purchased comparator remains unspecified.
+
+## Named T-Motor comparator
+
+User supplied Velox V45A V2 and its Robokits link. Recorded listing claims/stock and identity inconsistencies; compared closed BLHeli_32 with AM32 source access and OpenDrone hardware files. Recorded BLHeli_32 lifecycle separately in history.md. No purchase, compatibility approval, or performance ranking. See velox-v45a-v2-comparison.md.

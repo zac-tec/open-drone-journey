@@ -94,3 +94,6 @@ A board can be purchased and open-source. Hardware-source availability and firmw
 
 ### F-017 — Video test scope (developer-reported)
 At 9:09–9:44 in TwAmmPxOpTM, the developer describes a full-throttle run and reports battery exhaustion after about 90 seconds with the drone surviving. This does not independently establish rated continuous current, lifetime, or superiority to a named competitor. See comparison source record.
+
+### F-018 — BLHeli firmware variants have different openness
+The developer README explicitly identifies BLHeli_32 as closed source and BLHeli_S as open source; similar branding is not evidence of identical licensing. Source: https://github.com/bitdump/BLHeli , checked 2026-10-15. User's Robokits V45A V2 listing advertises BLHeli_32; actual physical revision remains uninspected.
