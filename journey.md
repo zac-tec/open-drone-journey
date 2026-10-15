@@ -42,3 +42,7 @@ Learner confirmed no hardware or tools and requested a fresh schematic-based sta
 ## Communication reference review
 
 Reviewed the supplied six-interface video transcript. Created communication-protocols.md mapping timestamps and drone relevance; corrected UART detection, I²C addressing/loading, 1-Wire power/ground, SPI naming, and CAN reliability simplifications using primary sources. DShot remains the immediate ESC command topic and is not covered by this video. No hardware test or learner mastery claimed.
+
+## DShot introduction
+
+Started conceptual DShot lesson separating command signaling, power-stage PWM, commutation, and speed regulation. Added dshot-lesson.md; implementation and physical tests remain pending.
