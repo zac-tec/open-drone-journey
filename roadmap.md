@@ -15,3 +15,7 @@ Each topic follows: principle → governing relationships → reference circuit/
 Reference hardware can provide comparison measurements. Designing every board at once is not required to reach the goal of our own system.
 
 For any flight/radio operation, investigate applicable Indian requirements using current primary sources at the time of that decision. No legal conclusions or band selections are recorded yet.
+
+## Current learning order — 2026-10-15
+
+User chose motor and ESC first, starting from schematics with no hardware. Module 1 is motor-esc-study.md. This supersedes the earlier proposed FC-first ordering. Study one motor-drive channel, then prototype and validate it before integration. Hardware purchases depend on requirements, tools, and sourcing review.

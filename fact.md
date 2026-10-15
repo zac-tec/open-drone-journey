@@ -56,3 +56,14 @@ Evidence: sourced. Actual thermal and transient limits require calculation and m
 ## Measurement record rule
 
 Measured entries must link raw files plus instruments, calibration limitations, firmware commit, board revision, supply conditions, load, and repeat count. Corrections require a date and explanation.
+
+## Motor/ESC study additions — 2026-10-15
+
+### F-008 — Pinned reference architecture (sourced)
+OpenESC-30x30 architecture notes at commit bf306934b5decc130ab1df6b653563ea16165e8e describe four channels, each using AT32F421G8U7, NSG2065Q, and six SP40N01GHNK devices. The channel schematic was retrieved and these values identified; nets, ratings, layout, and firmware have not been fully audited. Source: https://github.com/OpenDrone-hw/OpenESC-30x30/blob/bf306934b5decc130ab1df6b653563ea16165e8e/AGENTS.md .
+
+### F-009 — Back-EMF startup limitation (sourced)
+Rotation-generated back-EMF vanishes at standstill, so a sensorless method relying on that signal needs a suitable startup strategy. Source: https://www.ti.com/document-viewer/lit/html/SSZTBP2/GUID-E16F6FD4-B74F-4AB0-990E-C89D493A2398 . Not measured here.
+
+### F-010 — Electrical/mechanical speed (sourced)
+For p rotor pole pairs, electrical frequency in Hz equals p times mechanical RPM divided by 60. Source: https://ww1.microchip.com/downloads/en/Appnotes/AN3998-Sensorless-BLDC-MC-AVR-MCU-Fam-DS00003998.pdf . Numerical examples in motor-esc-study.md are instructional, not selected motor specifications.

@@ -30,4 +30,4 @@ Learn, design, manufacture, assemble, test, and explain our own drone setup in I
 
 Documentation started on 2026-10-15. No aircraft specification, finalized BOM, schematic, PCB, manufactured board, or flight test has been completed in this project. Repository: https://github.com/zac-tec/open-drone-journey . Initial documentation published on 2026-10-15; experimental and manufacturing milestones remain pending.
 
-First study task: trace one flight-controller schematic from battery input through regulators, MCU, IMU, receiver interface, and ESC outputs; explain why each block exists. Choose and pin the upstream revision before analysis.
+Current study: [Motor and ESC, from schematics to our own hardware](motor-esc-study.md). Start with one motor-drive channel; no hardware purchases are needed for Lesson 1. This replaces the earlier FC-first suggestion.
