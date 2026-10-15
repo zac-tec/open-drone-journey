@@ -78,3 +78,11 @@ Seven-bit addressing has reserved ranges; usual non-reserved addresses are 0x08�
 
 ### F-013 — 1-Wire supply and return
 DS18B20 uses a data line and ground, with external or supported parasite power. One data wire does not remove the ground return. Source: manufacturer product/datasheet linked in communication-protocols.md.
+
+## Firmware inspection — 2026-10-15
+
+### F-014 — OpenDrone AM32 target (source-inspected)
+At OpenDrone-hw/AM32 commit 5f8978eeb618c14bb396af7ac049d2a5e7b5a508 on feat/openesc-20-target, Inc/targets.h defines OPENESC_20_F421 and selects hardware groups AT_B and AT_045. Default main is a different commit. This does not establish compatibility with the previously studied 30x30 board. See esc-firmware-guide.md for exact links and limitations.
+
+### F-015 — DShot input handling (source-inspected)
+At the same commit, Src/dshot.c computeDshotDMA() decodes capture timing, validates check bits, reconstructs a command, and conditionally updates newinput. Startup, arming, and programming modes affect behavior; no hardware execution has been verified.

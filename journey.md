@@ -46,3 +46,7 @@ Reviewed the supplied six-interface video transcript. Created communication-prot
 ## DShot introduction
 
 Started conceptual DShot lesson separating command signaling, power-stage PWM, commutation, and speed regulation. Added dshot-lesson.md; implementation and physical tests remain pending.
+
+## Hardware and firmware together
+
+User requested using the available OpenDrone ESC firmware as a guide toward our own similar design. Inspected the OpenDrone AM32 fork and pinned its hardware-specific branch. Documented command decoding, target configuration, input processing, commutation landmarks, bootloader/application distinction, and the unresolved 20x20-versus-30x30 baseline. We will learn theory alongside actual schematic/code instead of treating firmware as a black box.

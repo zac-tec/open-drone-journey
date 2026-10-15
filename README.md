@@ -33,3 +33,5 @@ Documentation started on 2026-10-15. No aircraft specification, finalized BOM, s
 Current study: [Motor and ESC, from schematics to our own hardware](motor-esc-study.md). Start with one motor-drive channel; no hardware purchases are needed for Lesson 1. This replaces the earlier FC-first suggestion.
 
 Communication study reference: [reviewed video and corrected protocol notes](communication-protocols.md).
+
+Firmware study: [OpenDrone AM32 source guide](esc-firmware-guide.md).
