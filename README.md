@@ -39,3 +39,5 @@ Firmware study: [OpenDrone AM32 source guide](esc-firmware-guide.md).
 - [MOSFET substitution: electrical requirements, firmware impact and qualification](mosfet-substitution.md)
 
 - [OpenRX receiver designs and India manufacturing study](openrx-india-study.md)
+
+- [Complete Gemini component list and India sourcing research](gemini-bom/README.md)

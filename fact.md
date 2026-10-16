@@ -105,3 +105,7 @@ A MOSFET-only substitution normally leaves the bootloader unchanged when MCU, bo
 ## OpenRX family — 2026-10-16
 
 Current OpenRX hub routes live sources to Lite, Lite-UFL, Mono and Gemini repositories. Lite variants use SX1281; Mono one LR1121; Gemini two LR1121. Published boards use ESP32-C3 and six-layer PCBs. Evidence and pinned revisions: [openrx-india-study.md](openrx-india-study.md). India unit cost is unresolved, not a confirmed low-cost claim.
+
+## Gemini component inventory — 2026-10-16
+
+At hardware commit 5f5138bebfc0da1d1244512f8eef516aaa943a5c, KiCad schematic exports contain 81 orderable component instances grouped into 35 MPN/footprint groups, plus five copper pads. C32 is absent, not a missing BOM row. Evidence: [source BOM and netlist](gemini-bom/README.md). These are source-design facts, not measured hardware validation. India supplier research is partial and dated.

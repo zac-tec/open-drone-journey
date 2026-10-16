@@ -1,0 +1,3895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/sachusamuel/Documents/Codex/2026-10-15/i-w/outputs/OpenRX-Gemini/hardware/OpenRX-Gemini.kicad_sch</source>
+    <date>2026-10-16T21:16:57</date>
+    <tool>Eeschema 10.0.6</tool>
+    <textvar name="DOC_FIRMWARE">ExpressLRS</textvar>
+    <textvar name="DOC_HANDLE">openrx-gemini</textvar>
+    <textvar name="DOC_INPUT">5 V solder pad</textvar>
+    <textvar name="DOC_MCU">ESP32-C3 (QFN-32)</textvar>
+    <textvar name="DOC_NAME">OpenRX-Gemini</textvar>
+    <textvar name="DOC_PROTOCOL">CRSF</textvar>
+    <textvar name="DOC_RATING">5 V pad in to 3.3 V TLV75533 LDO; dual-radio sub-GHz + 2.4 GHz, up to 22 dBm/radio</textvar>
+    <textvar name="DOC_TAGLINE">ExpressLRS Xrossband receiver, dual LR1121, 2× U.FL, 6-layer</textvar>
+    <textvar name="DOC_VARIANT">Dual-radio U.FL</textvar>
+    <textvar name="OPENDRONE_LIB">${KIPRJMOD}/KiCad-Library</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>OpenRX-Gemini.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>esp32-c3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lr1121.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lr1121.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Clock/" tstamps="/fc68c4a5-0679-42dc-bec0-65ad962bb7ef/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>clock.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AE1">
+      <value>2450AT18A100E</value>
+      <footprint>OpenRX-Shared:ANT-SMD_L3.2-W1.6</footprint>
+      <datasheet>https://lcsc.com/product-detail/RF-Antenna_JOHANSON_2450AT18A100E_2450AT18A100E_C89334.html</datasheet>
+      <fields>
+        <field name="LCSC Part">C89334</field>
+        <field name="LCSC">C89334</field>
+        <field name="Manufacturer">Johanson Dielectrics</field>
+        <field name="MPN">2450AT18A100E</field>
+        <field name="Footprint">OpenRX-Shared:ANT-SMD_L3.2-W1.6</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/RF-Antenna_JOHANSON_2450AT18A100E_2450AT18A100E_C89334.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="2450AT18A100E" description=""/>
+      <property name="LCSC Part" value="C89334"/>
+      <property name="LCSC" value="C89334"/>
+      <property name="Manufacturer" value="Johanson Dielectrics"/>
+      <property name="MPN" value="2450AT18A100E"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>2e3a8336-09e3-4ce7-a64d-64e1765bf931</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>15pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85891</field>
+        <field name="LCSC Part">C85891</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H150JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85891"/>
+      <property name="LCSC Part" value="C85891"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H150JA01D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>52c22d98-b085-4c55-b5e4-3bafd9d34d1c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>15pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85891</field>
+        <field name="LCSC Part">C85891</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H150JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85891"/>
+      <property name="LCSC Part" value="C85891"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H150JA01D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>b18103d0-04c2-485b-b455-36e3a28f9b57</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76935</field>
+        <field name="LCSC Part">C76935</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61A105ME44D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76935"/>
+      <property name="LCSC Part" value="C76935"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61A105ME44D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>212e326c-3974-4326-8b37-47f1741f57b5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76939</field>
+        <field name="LCSC Part">C76939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61E104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76939"/>
+      <property name="LCSC Part" value="C76939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61E104KE14D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>5688e6e9-ea87-46e7-b0ff-17930bf37a5f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76939</field>
+        <field name="LCSC Part">C76939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61E104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76939"/>
+      <property name="LCSC Part" value="C76939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61E104KE14D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>e7f52881-25cf-49fb-bbbf-88a03951a8aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C15525</field>
+        <field name="LCSC Part">C15525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15525"/>
+      <property name="LCSC Part" value="C15525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>b4511ecf-f050-4bb0-b59c-b86298b7854d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76939</field>
+        <field name="LCSC Part">C76939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61E104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76939"/>
+      <property name="LCSC Part" value="C76939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61E104KE14D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>cbd56872-285c-4a02-8fe4-02d4ac96807f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76935</field>
+        <field name="LCSC Part">C76935</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61A105ME44D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76935"/>
+      <property name="LCSC Part" value="C76935"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61A105ME44D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>c25ea238-cfd4-4416-ac73-3bf6e2236588</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76991</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM155R60J106ME44D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76991"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM155R60J106ME44D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>c42dd3c0-1cec-4bd1-92ac-92bec0ca1d5a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76939</field>
+        <field name="LCSC Part">C76939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61E104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76939"/>
+      <property name="LCSC Part" value="C76939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61E104KE14D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>908d84cc-6f49-47b6-86e3-95b51282d704</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76935</field>
+        <field name="LCSC Part">C76935</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61A105ME44D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76935"/>
+      <property name="LCSC Part" value="C76935"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61A105ME44D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>23b92d2a-bc50-4f24-a33a-29269f3f1277</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C15525</field>
+        <field name="LCSC Part">C15525</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15525"/>
+      <property name="LCSC Part" value="C15525"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>5be833e0-68a0-4f4d-8f20-bf517ddf84de</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C25">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76935</field>
+        <field name="LCSC Part">C76935</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61A105ME44D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76935"/>
+      <property name="LCSC Part" value="C76935"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61A105ME44D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>62c50920-5352-4edd-bfeb-1f3f3ddbf7f4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C26">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C2168164</field>
+        <field name="LCSC Part">C2168164</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61A103KA01J</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C2168164"/>
+      <property name="LCSC Part" value="C2168164"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61A103KA01J"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>a2770cd5-d09f-40e0-b616-9cd0600cd4ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C27">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76935</field>
+        <field name="LCSC Part">C76935</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61A105ME44D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76935"/>
+      <property name="LCSC Part" value="C76935"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61A105ME44D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>b2316a37-828e-4417-b0f7-7da33fa17af5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C28">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76935</field>
+        <field name="LCSC Part">C76935</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61A105ME44D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76935"/>
+      <property name="LCSC Part" value="C76935"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61A105ME44D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>1915ec76-0f83-4997-9223-19f8c240fed5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C29">
+      <value>1.2pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85895</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H1R2BA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85895"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H1R2BA01D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>39d5a014-4728-40eb-af86-de01ba832a25</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C30">
+      <value>1.2pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85895</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H1R2BA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85895"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H1R2BA01D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>8434a0c3-1703-4ed9-ad1a-f88b39a80710</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>XL-1010RGBC-WS2812B</value>
+      <footprint>OpenRX-Shared:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B</footprint>
+      <fields>
+        <field name="LCSC">C5349953</field>
+        <field name="Manufacturer">XINGLIGHT</field>
+        <field name="MPN">XL-1010RGBC-2812B</field>
+        <field name="Footprint">OpenRX-Shared:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="XL-1010RGBC-WS2812B" description=""/>
+      <property name="LCSC" value="C5349953"/>
+      <property name="Manufacturer" value="XINGLIGHT"/>
+      <property name="MPN" value="XL-1010RGBC-2812B"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>bcf2f335-e4a8-4722-91c6-fd0d1410fa4e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>24nH</value>
+      <footprint>Inductor_SMD:L_0201_0603Metric</footprint>
+      <description>Inductor</description>
+      <fields>
+        <field name="LCSC">C206441</field>
+        <field name="LCSC Part">C206441</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">LQP03TN24NH02D</field>
+        <field name="Footprint">Inductor_SMD:L_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C206441"/>
+      <property name="LCSC Part" value="C206441"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="LQP03TN24NH02D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>d865eb47-289f-4366-a0a7-351ca30001d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L3">
+      <value>2.0nH</value>
+      <footprint>Inductor_SMD:L_0201_0603Metric</footprint>
+      <description>Inductor</description>
+      <fields>
+        <field name="LCSC">C86125</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">LQP03TN2N0B02D</field>
+        <field name="Footprint">Inductor_SMD:L_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C86125"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="LQP03TN2N0B02D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>fa8ddc41-8249-448a-a891-ccdefd06c863</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L4">
+      <value>2.5nH</value>
+      <footprint>Inductor_SMD:L_0201_0603Metric</footprint>
+      <description>Inductor</description>
+      <fields>
+        <field name="LCSC">C206435</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">LQP03TN2N5C02D</field>
+        <field name="Footprint">Inductor_SMD:L_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C206435"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="LQP03TN2N5C02D"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>f9a91d14-41ba-484e-b665-ef4b5fb55cfa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C106225</field>
+        <field name="LCSC Part">C106225</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106225"/>
+      <property name="LCSC Part" value="C106225"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-0710KL"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>716bdaed-62dd-4a62-9b49-58407ff3b6c2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C106225</field>
+        <field name="LCSC Part">C106225</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106225"/>
+      <property name="LCSC Part" value="C106225"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-0710KL"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>98ed3dae-44d7-4b00-8ebc-38ed375b08a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C106225</field>
+        <field name="LCSC Part">C106225</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106225"/>
+      <property name="LCSC Part" value="C106225"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-0710KL"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>39b6ad5e-c722-42c6-a193-a54ca8f3a00c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C106225</field>
+        <field name="LCSC Part">C106225</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106225"/>
+      <property name="LCSC Part" value="C106225"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-0710KL"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>611b186a-a331-4dc9-8aad-71ae5ecfdadc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>RX</value>
+      <footprint>OpenRX-Shared:SolderPad_1.2x2.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">OpenRX-Shared:SolderPad_1.2x2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>9ccd63a2-3a60-4b54-8e69-298d4ea76e34</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>TX</value>
+      <footprint>OpenRX-Shared:SolderPad_1.2x2.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">OpenRX-Shared:SolderPad_1.2x2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>5d223d42-ea78-4855-ab70-e1a4a58b0c6d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>5V</value>
+      <footprint>OpenRX-Shared:SolderPad_1.2x2.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">OpenRX-Shared:SolderPad_1.2x2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>048bc96f-7c00-40a2-983c-e4a78f8cc29b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP4">
+      <value>GND</value>
+      <footprint>OpenRX-Shared:SolderPad_1.2x2.0mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">OpenRX-Shared:SolderPad_1.2x2.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>f1a8c08a-2f12-4a41-b0d6-637795d50955</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">TestPoint:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>51cd92d1-abb2-4bd5-8a7e-01c6cced69b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-C3</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf</datasheet>
+      <description>RF Module, ESP32 SoC, RISC-V, WiFi 802.11b/n/g, Bluetooth LE 5, QFN32</description>
+      <fields>
+        <field name="LCSC">C2858491</field>
+        <field name="Manufacturer">Espressif Systems</field>
+        <field name="MPN">ESP32-C3FH4</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf</field>
+        <field name="Description">RF Module, ESP32 SoC, RISC-V, WiFi 802.11b/n/g, Bluetooth LE 5, QFN32</field>
+      </fields>
+      <libsource lib="MCU_Espressif" part="ESP32-C3" description="RF Module, ESP32 SoC, RISC-V, WiFi 802.11b/n/g, Bluetooth LE 5, QFN32"/>
+      <property name="LCSC" value="C2858491"/>
+      <property name="Manufacturer" value="Espressif Systems"/>
+      <property name="MPN" value="ESP32-C3FH4"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <property name="ki_keywords" value="WiFi BLE ESP32 Espressif"/>
+      <property name="ki_fp_filters" value="QFN*1EP*5x5mm*P0.5mm*EP3.7x3.7mm*"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>17c6a7e8-254f-4844-bf80-afd93af5eea9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="11"/>
+            <pin num="17"/>
+            <pin num="33"/>
+            <pin num="18"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="1"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TLV75533PDQNR</value>
+      <footprint>OpenRX-Shared:X2SON-4_L1.0-W1.0-P0.65-TL-EP</footprint>
+      <fields>
+        <field name="LCSC Part">C2861882</field>
+        <field name="LCSC">C2861882</field>
+        <field name="Manufacturer">TI</field>
+        <field name="MPN">TLV75533PDQNR</field>
+        <field name="Footprint">OpenRX-Shared:X2SON-4_L1.0-W1.0-P0.65-TL-EP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="TLV75533PDQNR" description=""/>
+      <property name="LCSC Part" value="C2861882"/>
+      <property name="LCSC" value="C2861882"/>
+      <property name="Manufacturer" value="TI"/>
+      <property name="MPN" value="TLV75533PDQNR"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>09ff9c7b-ddc8-41f0-b858-17028283fec6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U9">
+      <value>TS2306A 240GF MSM 9_C2976675</value>
+      <footprint>OpenRX-Shared:SW-SMD_4P-L3.0-W2.0-P0.85-LS3.5</footprint>
+      <fields>
+        <field name="LCSC">C2976675</field>
+        <field name="Manufacturer">SHOU HAN</field>
+        <field name="MPN">TS2306A 240gf MSM 9</field>
+        <field name="Footprint">OpenRX-Shared:SW-SMD_4P-L3.0-W2.0-P0.85-LS3.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="TS2306A240GFMSM9_C2976675" description=""/>
+      <property name="LCSC" value="C2976675"/>
+      <property name="Manufacturer" value="SHOU HAN"/>
+      <property name="MPN" value="TS2306A 240gf MSM 9"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>b2965a04-4741-4120-a430-3518e18585eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X1">
+      <value>CJ17-400001010B20</value>
+      <footprint>OpenRX-Shared:CRYSTAL-SMD_4P-L1.6-W1.2-BL</footprint>
+      <fields>
+        <field name="LCSC Part">C2875272</field>
+        <field name="LCSC">C2875272</field>
+        <field name="Manufacturer">JSCJ</field>
+        <field name="MPN">CJ17-400001010B20</field>
+        <field name="Footprint">OpenRX-Shared:CRYSTAL-SMD_4P-L1.6-W1.2-BL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="CJ17-400001010B20" description=""/>
+      <property name="LCSC Part" value="C2875272"/>
+      <property name="LCSC" value="C2875272"/>
+      <property name="Manufacturer" value="JSCJ"/>
+      <property name="MPN" value="CJ17-400001010B20"/>
+      <property name="Sheetname" value="ESP32-C3"/>
+      <property name="Sheetfile" value="esp32-c3.kicad_sch"/>
+      <sheetpath names="/ESP32-C3/" tstamps="/3494b709-9fe4-4ec8-a607-11cdb4cd6d78/"/>
+      <tstamps>4cdd1bd3-0a2a-4185-8259-aa5ad2e124ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85908</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H470JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85908"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H470JA01D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>d90bdf7a-388a-4101-b94d-ad22b635d634</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C384956</field>
+        <field name="LCSC Part">C384956</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H100FA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C384956"/>
+      <property name="LCSC Part" value="C384956"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H100FA01D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>8c718928-a972-4039-b555-8398cf638d85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76939</field>
+        <field name="LCSC Part">C76939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61E104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76939"/>
+      <property name="LCSC Part" value="C76939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61E104KE14D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>06fb7797-9325-4210-8422-938f54b0b333</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85908</field>
+        <field name="LCSC Part">C85908</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H470JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85908"/>
+      <property name="LCSC Part" value="C85908"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H470JA01D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>5eaad5cf-6e36-4aaf-b009-1bea009f0b08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76939</field>
+        <field name="LCSC Part">C76939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61E104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76939"/>
+      <property name="LCSC Part" value="C76939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61E104KE14D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>3071519f-fdc6-4ae6-9e6c-9064cbd50819</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>2.2nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C161488</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R71E222KA12D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C161488"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R71E222KA12D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>5aa8b604-2a5d-435c-be75-c26bda1d5d48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85926</field>
+        <field name="LCSC Part">C85926</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R60J474KE90D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85926"/>
+      <property name="LCSC Part" value="C85926"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R60J474KE90D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>8ad95424-d5ac-4502-a049-645a21e26092</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C907939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1E221JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C907939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1E221JA01D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>9ef8b1e1-6537-49c2-9b7c-70f6953d8445</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85934</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R71H102KA12D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85934"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R71H102KA12D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>d2ec38a4-e601-4fec-ba49-49db6ebba8b3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85908</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H470JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85908"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H470JA01D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>9735c112-e7e6-43d1-bfea-0fc70bc8bd70</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85908</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H470JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85908"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H470JA01D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>06971d18-3417-47fc-af97-681c32d11226</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C31">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76935</field>
+        <field name="LCSC Part">C76935</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61A105ME44D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76935"/>
+      <property name="LCSC Part" value="C76935"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61A105ME44D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>811601a9-406e-4a71-b9b1-b29a623e3036</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="FL1">
+      <value>2450FM07D0034T</value>
+      <footprint>OpenRX-Shared:FILTER-SMD_4P-L1.0-W0.5-L</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2651081.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JOHANSON(约翰逊)</field>
+        <field name="MPN">2450FM07D0034T</field>
+        <field name="LCSC Part_1">C2651081</field>
+        <field name="LCSC">C2651081</field>
+        <field name="Footprint">OpenRX-Shared:FILTER-SMD_4P-L1.0-W0.5-L</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2651081.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="2450FM07D0034T" description=""/>
+      <property name="Manufacturer" value="JOHANSON(约翰逊)"/>
+      <property name="MPN" value="2450FM07D0034T"/>
+      <property name="LCSC Part_1" value="C2651081"/>
+      <property name="LCSC" value="C2651081"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="RF Filters"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>b5aedb54-e9a4-4026-ae4e-19fbf14e3869</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_Coaxial_Small</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <description>small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <fields>
+        <field name="LCSC">C88374</field>
+        <field name="Manufacturer">HRS</field>
+        <field name="MPN">U.FL-R-SMT-1(80)</field>
+        <field name="Footprint">Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial_Small" description="small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="LCSC" value="C88374"/>
+      <property name="Manufacturer" value="HRS"/>
+      <property name="MPN" value="U.FL-R-SMT-1(80)"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>2c8d7720-a46e-4236-b8ff-2b5a99951075</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <description>Inductor</description>
+      <fields>
+        <field name="LCSC">C194437</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">MLZ1608N100LT000</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C194437"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="MLZ1608N100LT000"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>da58f839-6cb7-49b9-8f46-06042f1f9d7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L5">
+      <value>47nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <description>Inductor</description>
+      <fields>
+        <field name="LCSC">C192855</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">LQW15AN47NJ00D</field>
+        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C192855"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="LQW15AN47NJ00D"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>2a3f50ae-d004-438c-be89-051908402b9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C274337</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-07200RL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C274337"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-07200RL"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>ff28ab90-4773-4e60-a2fd-a94443ee7bf5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C2074788</field>
+        <field name="LCSC Part">C2074788</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="MPN">ERJ-1GNF2200C</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2074788"/>
+      <property name="LCSC Part" value="C2074788"/>
+      <property name="Manufacturer" value="PANASONIC"/>
+      <property name="MPN" value="ERJ-1GNF2200C"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>b8e8a429-cc97-4941-abed-06adb3bbbd5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C106224</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106224"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-07100KL"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>f2ca7319-93df-4efc-b614-bbdb41743057</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C106224</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106224"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-07100KL"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>95f3745f-0352-46dd-974f-ca0637d6dd3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="T1">
+      <value>0900PC16J0042001E</value>
+      <footprint>OpenRX-Shared:FILTER-SMD_10P-L2.0-W1.6-BL</footprint>
+      <fields>
+        <field name="LCSC">C19842466</field>
+        <field name="Manufacturer">Johanson Dielectrics</field>
+        <field name="MPN">0900PC16J0042001E</field>
+        <field name="Footprint">OpenRX-Shared:FILTER-SMD_10P-L2.0-W1.6-BL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="0900PC16J0042001E" description=""/>
+      <property name="LCSC" value="C19842466"/>
+      <property name="Manufacturer" value="Johanson Dielectrics"/>
+      <property name="MPN" value="0900PC16J0042001E"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>9a82d960-60b2-4f03-add8-0f687c0761af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>LR1121IMLTRT</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm</footprint>
+      <fields>
+        <field name="LCSC">C7498014</field>
+        <field name="Manufacturer">SEMTECH</field>
+        <field name="MPN">LR1121IMLTRT</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="LR1121IMLTRT" description=""/>
+      <property name="LCSC" value="C7498014"/>
+      <property name="Manufacturer" value="SEMTECH"/>
+      <property name="MPN" value="LR1121IMLTRT"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>10b94050-3e2d-4008-abba-9d2723881ccb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="15"/>
+            <pin num="13"/>
+            <pin num="33"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="26"/>
+            <pin num="32"/>
+            <pin num="31"/>
+            <pin num="30"/>
+            <pin num="29"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>RFX2401C</value>
+      <footprint>OpenRX-Shared:QFN-16_L3.0-W3.0-P0.50-BL-EP1.7</footprint>
+      <datasheet>https://lcsc.com/product-detail/RF-Transceiver-ICs_SKYWORKS_RFX2401C_RFX2401C_C19213.html</datasheet>
+      <fields>
+        <field name="LCSC">C19213</field>
+        <field name="Manufacturer">SKYWORKS</field>
+        <field name="MPN">RFX2401C</field>
+        <field name="Footprint">OpenRX-Shared:QFN-16_L3.0-W3.0-P0.50-BL-EP1.7</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/RF-Transceiver-ICs_SKYWORKS_RFX2401C_RFX2401C_C19213.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="RFX2401C" description=""/>
+      <property name="LCSC" value="C19213"/>
+      <property name="Manufacturer" value="SKYWORKS"/>
+      <property name="MPN" value="RFX2401C"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>1340fe8a-2e0e-47bd-9bfa-e35c4f02a78b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="17"/>
+            <pin num="15"/>
+            <pin num="7"/>
+            <pin num="16"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>SKY13373-460LF</value>
+      <footprint>OpenRX-Shared:QFN-12_EP_2x2_Pitch0.5mm</footprint>
+      <fields>
+        <field name="LCSC">C150853</field>
+        <field name="Manufacturer">Skyworks Solutions</field>
+        <field name="MPN">SKY13373-460LF</field>
+        <field name="Footprint">OpenRX-Shared:QFN-12_EP_2x2_Pitch0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="SKY13373-460LF" description=""/>
+      <property name="LCSC" value="C150853"/>
+      <property name="Manufacturer" value="Skyworks Solutions"/>
+      <property name="MPN" value="SKY13373-460LF"/>
+      <property name="Sheetname" value="LR1121_A"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <sheetpath names="/LR1121_A/" tstamps="/6ddf1bbe-5523-4361-9bbe-a0145fc055c6/"/>
+      <tstamps>97a139df-9a37-41ef-be14-916d0f239ff6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="9"/>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C33">
+      <value>2.2nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C161488</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R71E222KA12D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C161488"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R71E222KA12D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>5aa8b604-2a5d-435c-be75-c26bda1d5d48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C34">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C384956</field>
+        <field name="LCSC Part">C384956</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H100FA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C384956"/>
+      <property name="LCSC Part" value="C384956"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H100FA01D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>8c718928-a972-4039-b555-8398cf638d85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C35">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76939</field>
+        <field name="LCSC Part">C76939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61E104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76939"/>
+      <property name="LCSC Part" value="C76939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61E104KE14D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>06fb7797-9325-4210-8422-938f54b0b333</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C36">
+      <value>47pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85908</field>
+        <field name="LCSC Part">C85908</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H470JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85908"/>
+      <property name="LCSC Part" value="C85908"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H470JA01D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>5eaad5cf-6e36-4aaf-b009-1bea009f0b08</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C37">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76939</field>
+        <field name="LCSC Part">C76939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61E104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76939"/>
+      <property name="LCSC Part" value="C76939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61E104KE14D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>3071519f-fdc6-4ae6-9e6c-9064cbd50819</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C38">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85926</field>
+        <field name="LCSC Part">C85926</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R60J474KE90D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85926"/>
+      <property name="LCSC Part" value="C85926"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R60J474KE90D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>8ad95424-d5ac-4502-a049-645a21e26092</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C39">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85908</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H470JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85908"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H470JA01D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>d90bdf7a-388a-4101-b94d-ad22b635d634</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C40">
+      <value>220pF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C907939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1E221JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C907939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1E221JA01D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>9ef8b1e1-6537-49c2-9b7c-70f6953d8445</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C41">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76935</field>
+        <field name="LCSC Part">C76935</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61A105ME44D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76935"/>
+      <property name="LCSC Part" value="C76935"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61A105ME44D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>811601a9-406e-4a71-b9b1-b29a623e3036</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C42">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85908</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H470JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85908"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H470JA01D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>9735c112-e7e6-43d1-bfea-0fc70bc8bd70</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C43">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85934</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R71H102KA12D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85934"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R71H102KA12D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>d2ec38a4-e601-4fec-ba49-49db6ebba8b3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C44">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C85908</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM0335C1H470JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C85908"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM0335C1H470JA01D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>06971d18-3417-47fc-af97-681c32d11226</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="FL2">
+      <value>2450FM07D0034T</value>
+      <footprint>OpenRX-Shared:FILTER-SMD_4P-L1.0-W0.5-L</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C2651081.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">JOHANSON(约翰逊)</field>
+        <field name="MPN">2450FM07D0034T</field>
+        <field name="LCSC Part_1">C2651081</field>
+        <field name="LCSC">C2651081</field>
+        <field name="Footprint">OpenRX-Shared:FILTER-SMD_4P-L1.0-W0.5-L</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2651081.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="2450FM07D0034T" description=""/>
+      <property name="Manufacturer" value="JOHANSON(约翰逊)"/>
+      <property name="MPN" value="2450FM07D0034T"/>
+      <property name="LCSC Part_1" value="C2651081"/>
+      <property name="LCSC" value="C2651081"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="RF Filters"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>b5aedb54-e9a4-4026-ae4e-19fbf14e3869</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_Coaxial_Small</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <description>small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <fields>
+        <field name="LCSC">C88374</field>
+        <field name="Manufacturer">HRS</field>
+        <field name="MPN">U.FL-R-SMT-1(80)</field>
+        <field name="Footprint">Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial_Small" description="small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"/>
+      <property name="LCSC" value="C88374"/>
+      <property name="Manufacturer" value="HRS"/>
+      <property name="MPN" value="U.FL-R-SMT-1(80)"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"/>
+      <property name="ki_fp_filters" value="*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>2c8d7720-a46e-4236-b8ff-2b5a99951075</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L6">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <description>Inductor</description>
+      <fields>
+        <field name="LCSC">C194437</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="MPN">MLZ1608N100LT000</field>
+        <field name="Footprint">Inductor_SMD:L_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C194437"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="MPN" value="MLZ1608N100LT000"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>da58f839-6cb7-49b9-8f46-06042f1f9d7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L7">
+      <value>47nH</value>
+      <footprint>Inductor_SMD:L_0402_1005Metric</footprint>
+      <description>Inductor</description>
+      <fields>
+        <field name="LCSC">C192855</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">LQW15AN47NJ00D</field>
+        <field name="Footprint">Inductor_SMD:L_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="LCSC" value="C192855"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="LQW15AN47NJ00D"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>2a3f50ae-d004-438c-be89-051908402b9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C2074788</field>
+        <field name="LCSC Part">C2074788</field>
+        <field name="Manufacturer">PANASONIC</field>
+        <field name="MPN">ERJ-1GNF2200C</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2074788"/>
+      <property name="LCSC Part" value="C2074788"/>
+      <property name="Manufacturer" value="PANASONIC"/>
+      <property name="MPN" value="ERJ-1GNF2200C"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>b8e8a429-cc97-4941-abed-06adb3bbbd5e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>200</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C274337</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-07200RL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C274337"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-07200RL"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>ff28ab90-4773-4e60-a2fd-a94443ee7bf5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C106224</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106224"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-07100KL"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>f2ca7319-93df-4efc-b614-bbdb41743057</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0201_0603Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="LCSC">C106224</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MPN">RC0201FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C106224"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MPN" value="RC0201FR-07100KL"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>95f3745f-0352-46dd-974f-ca0637d6dd3c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="T2">
+      <value>0900PC16J0042001E</value>
+      <footprint>OpenRX-Shared:FILTER-SMD_10P-L2.0-W1.6-BL</footprint>
+      <fields>
+        <field name="LCSC">C19842466</field>
+        <field name="Manufacturer">Johanson Dielectrics</field>
+        <field name="MPN">0900PC16J0042001E</field>
+        <field name="Footprint">OpenRX-Shared:FILTER-SMD_10P-L2.0-W1.6-BL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="0900PC16J0042001E" description=""/>
+      <property name="LCSC" value="C19842466"/>
+      <property name="Manufacturer" value="Johanson Dielectrics"/>
+      <property name="MPN" value="0900PC16J0042001E"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>9a82d960-60b2-4f03-add8-0f687c0761af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>LR1121IMLTRT</value>
+      <footprint>Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm</footprint>
+      <fields>
+        <field name="LCSC">C7498014</field>
+        <field name="Manufacturer">SEMTECH</field>
+        <field name="MPN">LR1121IMLTRT</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="LR1121IMLTRT" description=""/>
+      <property name="LCSC" value="C7498014"/>
+      <property name="Manufacturer" value="SEMTECH"/>
+      <property name="MPN" value="LR1121IMLTRT"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>10b94050-3e2d-4008-abba-9d2723881ccb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="15"/>
+            <pin num="13"/>
+            <pin num="33"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="26"/>
+            <pin num="32"/>
+            <pin num="31"/>
+            <pin num="30"/>
+            <pin num="29"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>RFX2401C</value>
+      <footprint>OpenRX-Shared:QFN-16_L3.0-W3.0-P0.50-BL-EP1.7</footprint>
+      <datasheet>https://lcsc.com/product-detail/RF-Transceiver-ICs_SKYWORKS_RFX2401C_RFX2401C_C19213.html</datasheet>
+      <fields>
+        <field name="LCSC">C19213</field>
+        <field name="Manufacturer">SKYWORKS</field>
+        <field name="MPN">RFX2401C</field>
+        <field name="Footprint">OpenRX-Shared:QFN-16_L3.0-W3.0-P0.50-BL-EP1.7</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/RF-Transceiver-ICs_SKYWORKS_RFX2401C_RFX2401C_C19213.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="RFX2401C" description=""/>
+      <property name="LCSC" value="C19213"/>
+      <property name="Manufacturer" value="SKYWORKS"/>
+      <property name="MPN" value="RFX2401C"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>1340fe8a-2e0e-47bd-9bfa-e35c4f02a78b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="17"/>
+            <pin num="15"/>
+            <pin num="7"/>
+            <pin num="16"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>SKY13373-460LF</value>
+      <footprint>OpenRX-Shared:QFN-12_EP_2x2_Pitch0.5mm</footprint>
+      <fields>
+        <field name="LCSC">C150853</field>
+        <field name="Manufacturer">Skyworks Solutions</field>
+        <field name="MPN">SKY13373-460LF</field>
+        <field name="Footprint">OpenRX-Shared:QFN-12_EP_2x2_Pitch0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="SKY13373-460LF" description=""/>
+      <property name="LCSC" value="C150853"/>
+      <property name="Manufacturer" value="Skyworks Solutions"/>
+      <property name="MPN" value="SKY13373-460LF"/>
+      <property name="Sheetname" value="LR1121_B"/>
+      <property name="Sheetfile" value="lr1121.kicad_sch"/>
+      <sheetpath names="/LR1121_B/" tstamps="/92bfb8d6-2e76-4f7e-8d5a-1e9ea1b65bf9/"/>
+      <tstamps>97a139df-9a37-41ef-be14-916d0f239ff6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="9"/>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="7"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="LCSC">C76939</field>
+        <field name="LCSC Part">C76939</field>
+        <field name="Manufacturer">muRata</field>
+        <field name="MPN">GRM033R61E104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0201_0603Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C76939"/>
+      <property name="LCSC Part" value="C76939"/>
+      <property name="Manufacturer" value="muRata"/>
+      <property name="MPN" value="GRM033R61E104KE14D"/>
+      <property name="Sheetname" value="Clock"/>
+      <property name="Sheetfile" value="clock.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Clock/" tstamps="/fc68c4a5-0679-42dc-bec0-65ad962bb7ef/"/>
+      <tstamps>4e176070-4fc1-466c-bcb3-26fadce0f727</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="OSC1">
+      <value>OW7EL89CENUYO3YLC-32M</value>
+      <footprint>OpenRX-Shared:OSC-SMD_4P-L2.0-W1.6-BL_TXC_7Z</footprint>
+      <fields>
+        <field name="LCSC">C22381772</field>
+        <field name="Manufacturer">YXC Crystal Oscillators</field>
+        <field name="MPN">OW7EL89CENUYO3YLC-32M</field>
+        <field name="Footprint">OpenRX-Shared:OSC-SMD_4P-L2.0-W1.6-BL_TXC_7Z</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenRX-Shared" part="OW7EL89CENUYO3YLC-32M" description=""/>
+      <property name="LCSC" value="C22381772"/>
+      <property name="Manufacturer" value="YXC Crystal Oscillators"/>
+      <property name="MPN" value="OW7EL89CENUYO3YLC-32M"/>
+      <property name="Sheetname" value="Clock"/>
+      <property name="Sheetfile" value="clock.kicad_sch"/>
+      <sheetpath names="/Clock/" tstamps="/fc68c4a5-0679-42dc-bec0-65ad962bb7ef/"/>
+      <tstamps>0bd3e902-d953-4e71-890f-4438b0f4faca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial_Small">
+      <description>small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</description>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+        <fp>*LEMO*</fp>
+        <fp>*UMRF*</fp>
+        <fp>*MCX*</fp>
+        <fp>*U.FL*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Espressif" part="ESP32-C3">
+      <description>RF Module, ESP32 SoC, RISC-V, WiFi 802.11b/n/g, Bluetooth LE 5, QFN32</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*5x5mm*P0.5mm*EP3.7x3.7mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-C3</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf</field>
+        <field name="Description">RF Module, ESP32 SoC, RISC-V, WiFi 802.11b/n/g, Bluetooth LE 5, QFN32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LNA_IN" type="bidirectional"/>
+        <pin num="2" name="VDD3P3" type="power_in"/>
+        <pin num="3" name="VDD3P3" type="passive"/>
+        <pin num="4" name="XTAL_32K_P" type="bidirectional"/>
+        <pin num="5" name="XTAL_32K_N" type="bidirectional"/>
+        <pin num="6" name="GPIO2" type="bidirectional"/>
+        <pin num="7" name="CHIP_EN" type="bidirectional"/>
+        <pin num="8" name="GPIO3" type="bidirectional"/>
+        <pin num="9" name="MTMS" type="bidirectional"/>
+        <pin num="10" name="MTDI" type="bidirectional"/>
+        <pin num="11" name="VDD3P3_RTC" type="power_in"/>
+        <pin num="12" name="MTCK" type="bidirectional"/>
+        <pin num="13" name="MTDO" type="bidirectional"/>
+        <pin num="14" name="GPIO8" type="bidirectional"/>
+        <pin num="15" name="GPIO9" type="bidirectional"/>
+        <pin num="16" name="GPIO10" type="bidirectional"/>
+        <pin num="17" name="VDD3P3_CPU" type="power_in"/>
+        <pin num="18" name="VDD_SPI" type="power_out"/>
+        <pin num="19" name="SPIHD" type="bidirectional"/>
+        <pin num="20" name="SPIWP" type="bidirectional"/>
+        <pin num="21" name="SPICS0" type="bidirectional"/>
+        <pin num="22" name="SPICLK" type="bidirectional"/>
+        <pin num="23" name="SPID" type="bidirectional"/>
+        <pin num="24" name="SPIQ" type="bidirectional"/>
+        <pin num="25" name="GPIO18" type="bidirectional"/>
+        <pin num="26" name="GPIO19" type="bidirectional"/>
+        <pin num="27" name="U0RXD" type="bidirectional"/>
+        <pin num="28" name="U0TXD" type="bidirectional"/>
+        <pin num="29" name="XTAL_N" type="bidirectional"/>
+        <pin num="30" name="XTAL_P" type="bidirectional"/>
+        <pin num="31" name="VDDA" type="power_in"/>
+        <pin num="32" name="VDDA" type="passive"/>
+        <pin num="33" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="0900PC16J0042001E">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">0900PC16J0042001E</field>
+        <field name="Footprint">OpenRX-Shared:FILTER-SMD_10P-L2.0-W1.6-BL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C19842466</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RFO_HP_LF" type="unspecified"/>
+        <pin num="2" name="RFO_LP_LF" type="unspecified"/>
+        <pin num="3" name="RFI_P_LFO" type="unspecified"/>
+        <pin num="4" name="RFI_N_LFO" type="unspecified"/>
+        <pin num="5" name="GND" type="unspecified"/>
+        <pin num="6" name="RX" type="unspecified"/>
+        <pin num="7" name="GND" type="unspecified"/>
+        <pin num="8" name="TX_LP" type="unspecified"/>
+        <pin num="9" name="TX_HP" type="unspecified"/>
+        <pin num="10" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="2450AT18A100E">
+      <docs>https://lcsc.com/product-detail/RF-Antenna_JOHANSON_2450AT18A100E_2450AT18A100E_C89334.html</docs>
+      <fields>
+        <field name="Reference">AE1</field>
+        <field name="Value">2450AT18A100E</field>
+        <field name="Footprint">OpenRX-Shared:ANT-SMD_L3.2-W1.6</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/RF-Antenna_JOHANSON_2450AT18A100E_2450AT18A100E_C89334.html</field>
+        <field name="Description"/>
+        <field name="LCSC Part">C89334</field>
+        <field name="LCSC">C89334</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="2450FM07D0034T">
+      <docs>https://www.lcsc.com/datasheet/C2651081.pdf</docs>
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">2450FM07D0034T</field>
+        <field name="Footprint">OpenRX-Shared:FILTER-SMD_4P-L1.0-W0.5-L</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C2651081.pdf</field>
+        <field name="Description"/>
+        <field name="Manufacturer">JOHANSON(约翰逊)</field>
+        <field name="MPN">2450FM07D0034T</field>
+        <field name="LCSC Part">C2651081</field>
+        <field name="LCSC Part_1">C2651081</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="OUT" type="unspecified"/>
+        <pin num="4" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="CJ17-400001010B20">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CJ17-400001010B20</field>
+        <field name="Footprint">OpenRX-Shared:CRYSTAL-SMD_4P-L1.6-W1.2-BL</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C2875272</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="LR1121IMLTRT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LR1121IMLTRT</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C7498014</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VR_PA" type="power_out"/>
+        <pin num="2" name="VBAT_RF" type="power_in"/>
+        <pin num="3" name="VTCXO" type="power_out"/>
+        <pin num="4" name="XTA" type="input"/>
+        <pin num="5" name="XTB" type="output"/>
+        <pin num="6" name="NRESET" type="input"/>
+        <pin num="7" name="32k_P/DIO11" type="bidirectional"/>
+        <pin num="8" name="32k_N/DIO10" type="bidirectional"/>
+        <pin num="9" name="DIO9" type="bidirectional"/>
+        <pin num="10" name="DIO8" type="bidirectional"/>
+        <pin num="11" name="DIO7" type="bidirectional"/>
+        <pin num="12" name="VREG" type="power_out"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="DCC_SW" type="power_out"/>
+        <pin num="15" name="VBAT" type="power_in"/>
+        <pin num="16" name="DNC" type="passive"/>
+        <pin num="17" name="DNC" type="passive"/>
+        <pin num="18" name="DNC" type="passive"/>
+        <pin num="19" name="DIO6" type="bidirectional"/>
+        <pin num="20" name="DIO5" type="bidirectional"/>
+        <pin num="21" name="DIO4" type="bidirectional"/>
+        <pin num="22" name="DIO3" type="bidirectional"/>
+        <pin num="23" name="DIO2" type="bidirectional"/>
+        <pin num="24" name="DIO1" type="bidirectional"/>
+        <pin num="25" name="DIO0/BUSY" type="bidirectional"/>
+        <pin num="26" name="RFIO_HF" type="bidirectional"/>
+        <pin num="27" name="DNC" type="passive"/>
+        <pin num="28" name="DNC" type="passive"/>
+        <pin num="29" name="RFI_N_LF0" type="unspecified"/>
+        <pin num="30" name="RFI_P_LF0" type="unspecified"/>
+        <pin num="31" name="RFO_LP_LF" type="unspecified"/>
+        <pin num="32" name="RFO_HP_LF" type="unspecified"/>
+        <pin num="33" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="OW7EL89CENUYO3YLC-32M">
+      <fields>
+        <field name="Reference">OSC</field>
+        <field name="Value">OW7EL89CENUYO3YLC-32M</field>
+        <field name="Footprint">OpenRX-Shared:OSC-SMD_4P-L2.0-W1.6-BL_TXC_7Z</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C22381772</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="OutPut" type="unspecified"/>
+        <pin num="4" name="VDD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="RFX2401C">
+      <docs>https://lcsc.com/product-detail/RF-Transceiver-ICs_SKYWORKS_RFX2401C_RFX2401C_C19213.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFX2401C</field>
+        <field name="Footprint">OpenRX-Shared:QFN-16_L3.0-W3.0-P0.50-BL-EP1.7</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/RF-Transceiver-ICs_SKYWORKS_RFX2401C_RFX2401C_C19213.html</field>
+        <field name="Description"/>
+        <field name="LCSC Part">C19213</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="GND" type="unspecified"/>
+        <pin num="4" name="TXRX" type="unspecified"/>
+        <pin num="5" name="TXEN" type="unspecified"/>
+        <pin num="6" name="RXEN" type="unspecified"/>
+        <pin num="7" name="GND" type="unspecified"/>
+        <pin num="8" name="GND" type="unspecified"/>
+        <pin num="9" name="GND" type="unspecified"/>
+        <pin num="10" name="ANT" type="unspecified"/>
+        <pin num="11" name="GND" type="unspecified"/>
+        <pin num="12" name="GND" type="unspecified"/>
+        <pin num="13" name="DNC" type="unspecified"/>
+        <pin num="14" name="VDD" type="unspecified"/>
+        <pin num="15" name="GND" type="unspecified"/>
+        <pin num="16" name="VDD" type="unspecified"/>
+        <pin num="17" name="EP" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="SKY13373-460LF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint">OpenRX-Shared:QFN-12_EP_2x2_Pitch0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="J1" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="J3" type="bidirectional"/>
+        <pin num="4" name="V1" type="input"/>
+        <pin num="5" name="V2" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="J2" type="bidirectional"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="RFC" type="bidirectional"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="EP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="TLV75533PDQNR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV75533PDQNR</field>
+        <field name="Footprint">OpenRX-Shared:X2SON-4_L1.0-W1.0-P0.65-TL-EP</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C2861882</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="unspecified"/>
+        <pin num="2" name="GND" type="unspecified"/>
+        <pin num="3" name="EN" type="unspecified"/>
+        <pin num="4" name="IN" type="unspecified"/>
+        <pin num="5" name="EP" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="TS2306A240GFMSM9_C2976675">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TS2306A 240GF MSM 9_C2976675</field>
+        <field name="Footprint">OpenRX-Shared:SW-SMD_4P-L3.0-W2.0-P0.85-LS3.5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C2976675</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenRX-Shared" part="XL-1010RGBC-WS2812B">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">XL-1010RGBC-WS2812B</field>
+        <field name="Footprint">OpenRX-Shared:LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="LCSC Part">C5349953</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="unspecified"/>
+        <pin num="2" name="VDD" type="unspecified"/>
+        <pin num="3" name="GND" type="unspecified"/>
+        <pin num="4" name="DIN" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Espressif">
+      <uri>${KICAD10_SYMBOL_DIR}/MCU_Espressif.kicad_sym</uri>
+    </library>
+    <library logical="OpenRX-Shared">
+      <uri>${KIPRJMOD}/KiCad-Library/symbol/OpenDrone.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="VDD_2" pintype="unspecified"/>
+      <node ref="L3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="OSC1" pin="4" pinfunction="VDD_4" pintype="unspecified"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="VDD3P3_RTC_11" pintype="power_in"/>
+      <node ref="U1" pin="17" pinfunction="VDD3P3_CPU_17" pintype="power_in"/>
+      <node ref="U1" pin="18" pinfunction="VDD_SPI_18" pintype="power_out"/>
+      <node ref="U1" pin="31" pinfunction="VDDA_31" pintype="power_in"/>
+      <node ref="U1" pin="32" pinfunction="VDDA_32" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="OUT_1" pintype="unspecified"/>
+      <node ref="U3" pin="15" pinfunction="VBAT_15" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VBAT_RF_2" pintype="power_in"/>
+      <node ref="U4" pin="16" pinfunction="VDD_16" pintype="unspecified"/>
+      <node ref="U5" pin="6" pinfunction="VDD_6" pintype="power_in"/>
+      <node ref="U6" pin="15" pinfunction="VBAT_15" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="VBAT_RF_2" pintype="power_in"/>
+      <node ref="U7" pin="16" pinfunction="VDD_16" pintype="unspecified"/>
+      <node ref="U8" pin="6" pinfunction="VDD_6" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="EN_3" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="IN_4" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/Clock/TCXO_Out" class="Default">
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="OSC1" pin="3" pinfunction="OutPut_3" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/ESP32-C3/BOOT" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="GPIO9_15" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="1_1" pintype="input"/>
+    </net>
+    <net code="5" name="/ESP32-C3/BUSY_A" class="Default">
+      <node ref="U1" pin="8" pinfunction="GPIO3_8" pintype="bidirectional"/>
+      <node ref="U3" pin="25" pinfunction="DIO0/BUSY_25" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/ESP32-C3/BUSY_B" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GPIO8_14" pintype="bidirectional"/>
+      <node ref="U6" pin="25" pinfunction="DIO0/BUSY_25" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/ESP32-C3/CHIP_EN" class="Default">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CHIP_EN_7" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/ESP32-C3/DIO1_A" class="Default">
+      <node ref="U1" pin="5" pinfunction="XTAL_32K_N_5" pintype="bidirectional"/>
+      <node ref="U3" pin="9" pinfunction="DIO9_9" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/ESP32-C3/DIO1_B" class="Default">
+      <node ref="U1" pin="25" pinfunction="GPIO18_25" pintype="bidirectional"/>
+      <node ref="U6" pin="9" pinfunction="DIO9_9" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/ESP32-C3/LED" class="Default">
+      <node ref="D1" pin="4" pinfunction="DIN_4" pintype="unspecified"/>
+      <node ref="U1" pin="26" pinfunction="GPIO19_26" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/ESP32-C3/MISO" class="Default">
+      <node ref="U1" pin="10" pinfunction="MTDI_10" pintype="bidirectional"/>
+      <node ref="U3" pin="21" pinfunction="DIO4_21" pintype="bidirectional"/>
+      <node ref="U6" pin="21" pinfunction="DIO4_21" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/ESP32-C3/MOSI" class="Default">
+      <node ref="U1" pin="9" pinfunction="MTMS_9" pintype="bidirectional"/>
+      <node ref="U3" pin="22" pinfunction="DIO3_22" pintype="bidirectional"/>
+      <node ref="U6" pin="22" pinfunction="DIO3_22" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/ESP32-C3/NSS_A" class="Default">
+      <node ref="U1" pin="4" pinfunction="XTAL_32K_P_4" pintype="bidirectional"/>
+      <node ref="U3" pin="24" pinfunction="DIO1_24" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/ESP32-C3/NSS_B" class="Default">
+      <node ref="U1" pin="13" pinfunction="MTDO_13" pintype="bidirectional"/>
+      <node ref="U6" pin="24" pinfunction="DIO1_24" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/ESP32-C3/RST_A" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GPIO2_6" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="NRESET_6" pintype="input"/>
+    </net>
+    <net code="16" name="/ESP32-C3/RST_B" class="Default">
+      <node ref="U1" pin="16" pinfunction="GPIO10_16" pintype="bidirectional"/>
+      <node ref="U6" pin="6" pinfunction="NRESET_6" pintype="input"/>
+    </net>
+    <net code="17" name="/ESP32-C3/SCK" class="Default">
+      <node ref="U1" pin="12" pinfunction="MTCK_12" pintype="bidirectional"/>
+      <node ref="U3" pin="23" pinfunction="DIO2_23" pintype="bidirectional"/>
+      <node ref="U6" pin="23" pinfunction="DIO2_23" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/ESP32-C3/WIFI" class="Default">
+      <node ref="AE1" pin="1" pintype="unspecified"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="19" name="/ESP32-C3/XTAL_N" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="XTAL_N_29" pintype="bidirectional"/>
+      <node ref="X1" pin="3" pinfunction="3_3" pintype="input"/>
+    </net>
+    <net code="20" name="/ESP32-C3/XTAL_P" class="Default">
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="XTAL_P_30" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/LR1121_A/CTRL1" class="Default">
+      <node ref="U3" pin="11" pinfunction="DIO7_11" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="V1_4" pintype="input"/>
+    </net>
+    <net code="22" name="/LR1121_A/CTRL2" class="Default">
+      <node ref="U3" pin="10" pinfunction="DIO8_10" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="V2_5" pintype="input"/>
+    </net>
+    <net code="23" name="/LR1121_A/RXEN24" class="Default">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="20" pinfunction="DIO5_20" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="RXEN_6" pintype="unspecified"/>
+    </net>
+    <net code="24" name="/LR1121_A/TXEN24" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="DIO6_19" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="TXEN_5" pintype="unspecified"/>
+    </net>
+    <net code="25" name="/LR1121_A/VR_PA" class="Default">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="L5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VR_PA_1" pintype="power_out"/>
+    </net>
+    <net code="26" name="/LR1121_B/CTRL1" class="Default">
+      <node ref="U6" pin="11" pinfunction="DIO7_11" pintype="bidirectional"/>
+      <node ref="U8" pin="4" pinfunction="V1_4" pintype="input"/>
+    </net>
+    <net code="27" name="/LR1121_B/CTRL2" class="Default">
+      <node ref="U6" pin="10" pinfunction="DIO8_10" pintype="bidirectional"/>
+      <node ref="U8" pin="5" pinfunction="V2_5" pintype="input"/>
+    </net>
+    <net code="28" name="/LR1121_B/RXEN24" class="Default">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U6" pin="20" pinfunction="DIO5_20" pintype="bidirectional"/>
+      <node ref="U7" pin="6" pinfunction="RXEN_6" pintype="unspecified"/>
+    </net>
+    <net code="29" name="/LR1121_B/TXEN24" class="Default">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U6" pin="19" pinfunction="DIO6_19" pintype="bidirectional"/>
+      <node ref="U7" pin="5" pinfunction="TXEN_5" pintype="unspecified"/>
+    </net>
+    <net code="30" name="/LR1121_B/VR_PA" class="Default">
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="L7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="VR_PA_1" pintype="power_out"/>
+    </net>
+    <net code="31" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="GND_3" pintype="unspecified"/>
+      <node ref="FL1" pin="2" pinfunction="GND_2" pintype="unspecified"/>
+      <node ref="FL1" pin="4" pinfunction="GND_4" pintype="unspecified"/>
+      <node ref="FL2" pin="2" pinfunction="GND_2" pintype="unspecified"/>
+      <node ref="FL2" pin="4" pinfunction="GND_4" pintype="unspecified"/>
+      <node ref="J1" pin="2" pinfunction="Ext_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Ext_2" pintype="passive"/>
+      <node ref="OSC1" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="OSC1" pin="2" pinfunction="GND_2" pintype="unspecified"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="T1" pin="10" pinfunction="GND_10" pintype="unspecified"/>
+      <node ref="T1" pin="5" pinfunction="GND_5" pintype="unspecified"/>
+      <node ref="T1" pin="7" pinfunction="GND_7" pintype="unspecified"/>
+      <node ref="T2" pin="10" pinfunction="GND_10" pintype="unspecified"/>
+      <node ref="T2" pin="5" pinfunction="GND_5" pintype="unspecified"/>
+      <node ref="T2" pin="7" pinfunction="GND_7" pintype="unspecified"/>
+      <node ref="TP4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="GND_33" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="unspecified"/>
+      <node ref="U2" pin="5" pinfunction="EP_5" pintype="unspecified"/>
+      <node ref="U3" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="U3" pin="33" pinfunction="EP_33" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U4" pin="11" pinfunction="GND_11" pintype="unspecified"/>
+      <node ref="U4" pin="12" pinfunction="GND_12" pintype="unspecified"/>
+      <node ref="U4" pin="15" pinfunction="GND_15" pintype="unspecified"/>
+      <node ref="U4" pin="17" pinfunction="EP_17" pintype="unspecified"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="unspecified"/>
+      <node ref="U4" pin="3" pinfunction="GND_3" pintype="unspecified"/>
+      <node ref="U4" pin="7" pinfunction="GND_7" pintype="unspecified"/>
+      <node ref="U4" pin="8" pinfunction="GND_8" pintype="unspecified"/>
+      <node ref="U4" pin="9" pinfunction="GND_9" pintype="unspecified"/>
+      <node ref="U5" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="U5" pin="12" pinfunction="GND_12" pintype="power_in"/>
+      <node ref="U5" pin="13" pinfunction="EP_13" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U6" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="U6" pin="33" pinfunction="EP_33" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="GND_1" pintype="unspecified"/>
+      <node ref="U7" pin="11" pinfunction="GND_11" pintype="unspecified"/>
+      <node ref="U7" pin="12" pinfunction="GND_12" pintype="unspecified"/>
+      <node ref="U7" pin="15" pinfunction="GND_15" pintype="unspecified"/>
+      <node ref="U7" pin="17" pinfunction="EP_17" pintype="unspecified"/>
+      <node ref="U7" pin="2" pinfunction="GND_2" pintype="unspecified"/>
+      <node ref="U7" pin="3" pinfunction="GND_3" pintype="unspecified"/>
+      <node ref="U7" pin="7" pinfunction="GND_7" pintype="unspecified"/>
+      <node ref="U7" pin="8" pinfunction="GND_8" pintype="unspecified"/>
+      <node ref="U7" pin="9" pinfunction="GND_9" pintype="unspecified"/>
+      <node ref="U8" pin="10" pinfunction="GND_10" pintype="power_in"/>
+      <node ref="U8" pin="12" pinfunction="GND_12" pintype="power_in"/>
+      <node ref="U8" pin="13" pinfunction="EP_13" pintype="power_in"/>
+      <node ref="U8" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U8" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="2_2" pintype="input"/>
+      <node ref="X1" pin="2" pinfunction="GND_2" pintype="input"/>
+      <node ref="X1" pin="4" pinfunction="GND_4" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(C1-Pad1)" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="1_1" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(C7-Pad1)" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(C25-Pad1)" class="Default">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VDD3P3_2" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="VDD3P3_3" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(C34-Pad1)" class="Default">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(FL1-IN)" class="Default">
+      <node ref="FL1" pin="1" pinfunction="IN_1" pintype="unspecified"/>
+      <node ref="U3" pin="26" pinfunction="RFIO_HF_26" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(FL1-OUT)" class="Default">
+      <node ref="FL1" pin="3" pinfunction="OUT_3" pintype="unspecified"/>
+      <node ref="U4" pin="4" pinfunction="TXRX_4" pintype="unspecified"/>
+    </net>
+    <net code="38" name="Net-(FL2-IN)" class="Default">
+      <node ref="FL2" pin="1" pinfunction="IN_1" pintype="unspecified"/>
+      <node ref="U6" pin="26" pinfunction="RFIO_HF_26" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(FL2-OUT)" class="Default">
+      <node ref="FL2" pin="3" pinfunction="OUT_3" pintype="unspecified"/>
+      <node ref="U7" pin="4" pinfunction="TXRX_4" pintype="unspecified"/>
+    </net>
+    <net code="40" name="Net-(J1-In)" class="Default">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="In_1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J2-In)" class="Default">
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="In_1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(T1-RFI_N_LFO)" class="Default">
+      <node ref="T1" pin="4" pinfunction="RFI_N_LFO_4" pintype="unspecified"/>
+      <node ref="U3" pin="29" pinfunction="RFI_N_LF0_29" pintype="unspecified"/>
+    </net>
+    <net code="43" name="Net-(T1-RFI_P_LFO)" class="Default">
+      <node ref="T1" pin="3" pinfunction="RFI_P_LFO_3" pintype="unspecified"/>
+      <node ref="U3" pin="30" pinfunction="RFI_P_LF0_30" pintype="unspecified"/>
+    </net>
+    <net code="44" name="Net-(T1-RFO_HP_LF)" class="Default">
+      <node ref="L5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="RFO_HP_LF_1" pintype="unspecified"/>
+      <node ref="U3" pin="32" pinfunction="RFO_HP_LF_32" pintype="unspecified"/>
+    </net>
+    <net code="45" name="Net-(T1-RFO_LP_LF)" class="Default">
+      <node ref="T1" pin="2" pinfunction="RFO_LP_LF_2" pintype="unspecified"/>
+      <node ref="U3" pin="31" pinfunction="RFO_LP_LF_31" pintype="unspecified"/>
+    </net>
+    <net code="46" name="Net-(T1-RX)" class="Default">
+      <node ref="T1" pin="6" pinfunction="RX_6" pintype="unspecified"/>
+      <node ref="U5" pin="3" pinfunction="J3_3" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="Net-(T1-TX_HP)" class="Default">
+      <node ref="T1" pin="9" pinfunction="TX_HP_9" pintype="unspecified"/>
+      <node ref="U5" pin="1" pinfunction="J1_1" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="Net-(T2-RFI_N_LFO)" class="Default">
+      <node ref="T2" pin="4" pinfunction="RFI_N_LFO_4" pintype="unspecified"/>
+      <node ref="U6" pin="29" pinfunction="RFI_N_LF0_29" pintype="unspecified"/>
+    </net>
+    <net code="49" name="Net-(T2-RFI_P_LFO)" class="Default">
+      <node ref="T2" pin="3" pinfunction="RFI_P_LFO_3" pintype="unspecified"/>
+      <node ref="U6" pin="30" pinfunction="RFI_P_LF0_30" pintype="unspecified"/>
+    </net>
+    <net code="50" name="Net-(T2-RFO_HP_LF)" class="Default">
+      <node ref="L7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="T2" pin="1" pinfunction="RFO_HP_LF_1" pintype="unspecified"/>
+      <node ref="U6" pin="32" pinfunction="RFO_HP_LF_32" pintype="unspecified"/>
+    </net>
+    <net code="51" name="Net-(T2-RFO_LP_LF)" class="Default">
+      <node ref="T2" pin="2" pinfunction="RFO_LP_LF_2" pintype="unspecified"/>
+      <node ref="U6" pin="31" pinfunction="RFO_LP_LF_31" pintype="unspecified"/>
+    </net>
+    <net code="52" name="Net-(T2-RX)" class="Default">
+      <node ref="T2" pin="6" pinfunction="RX_6" pintype="unspecified"/>
+      <node ref="U8" pin="3" pinfunction="J3_3" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="Net-(T2-TX_HP)" class="Default">
+      <node ref="T2" pin="9" pinfunction="TX_HP_9" pintype="unspecified"/>
+      <node ref="U8" pin="1" pinfunction="J1_1" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="Net-(U1-LNA_IN)" class="Default">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="LNA_IN_1" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="Net-(U1-U0RXD)" class="Default">
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="U0RXD_27" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="Net-(U1-U0TXD)" class="Default">
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="U0TXD_28" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="Net-(U3-DCC_SW)" class="Default">
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="DCC_SW_14" pintype="power_out"/>
+    </net>
+    <net code="58" name="Net-(U3-VREG)" class="Default">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="VREG_12" pintype="power_out"/>
+    </net>
+    <net code="59" name="Net-(U3-XTA)" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="XTA_4" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(U4-ANT)" class="Default">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="ANT_10" pintype="unspecified"/>
+    </net>
+    <net code="61" name="Net-(U5-J2)" class="Default">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="J2_9" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="Net-(U5-RFC)" class="Default">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="RFC_11" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="Net-(U6-DCC_SW)" class="Default">
+      <node ref="L6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="DCC_SW_14" pintype="power_out"/>
+    </net>
+    <net code="64" name="Net-(U6-VREG)" class="Default">
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="L6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U6" pin="12" pinfunction="VREG_12" pintype="power_out"/>
+    </net>
+    <net code="65" name="Net-(U6-XTA)" class="Default">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="XTA_4" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(U7-ANT)" class="Default">
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="ANT_10" pintype="unspecified"/>
+    </net>
+    <net code="67" name="Net-(U8-J2)" class="Default">
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="U8" pin="9" pinfunction="J2_9" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="Net-(U8-RFC)" class="Default">
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="U8" pin="11" pinfunction="RFC_11" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(AE1-Pad2)" class="Default">
+      <node ref="AE1" pin="2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(D1-DOUT-Pad1)" class="Default">
+      <node ref="D1" pin="1" pinfunction="DOUT_1" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(T1-TX_LP-Pad8)" class="Default">
+      <node ref="T1" pin="8" pinfunction="TX_LP_8" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(T2-TX_LP-Pad8)" class="Default">
+      <node ref="T2" pin="8" pinfunction="TX_LP_8" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-SPICLK-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="SPICLK_22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-SPICS0-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="SPICS0_21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U1-SPID-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="SPID_23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U1-SPIHD-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="SPIHD_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U1-SPIQ-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="SPIQ_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U1-SPIWP-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="SPIWP_20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U3-32k_N/DIO10-Pad8)" class="Default">
+      <node ref="U3" pin="8" pinfunction="32k_N/DIO10_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U3-32k_P/DIO11-Pad7)" class="Default">
+      <node ref="U3" pin="7" pinfunction="32k_P/DIO11_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U3-DNC-Pad16)" class="Default">
+      <node ref="U3" pin="16" pinfunction="DNC_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U3-DNC-Pad17)" class="Default">
+      <node ref="U3" pin="17" pinfunction="DNC_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U3-DNC-Pad18)" class="Default">
+      <node ref="U3" pin="18" pinfunction="DNC_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U3-DNC-Pad27)" class="Default">
+      <node ref="U3" pin="27" pinfunction="DNC_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U3-DNC-Pad28)" class="Default">
+      <node ref="U3" pin="28" pinfunction="DNC_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U3-VTCXO-Pad3)" class="Default">
+      <node ref="U3" pin="3" pinfunction="VTCXO_3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U3-XTB-Pad5)" class="Default">
+      <node ref="U3" pin="5" pinfunction="XTB_5" pintype="output+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U4-DNC-Pad13)" class="Default">
+      <node ref="U4" pin="13" pinfunction="DNC_13" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U4-VDD-Pad14)" class="Default">
+      <node ref="U4" pin="14" pinfunction="VDD_14" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U6-32k_N/DIO10-Pad8)" class="Default">
+      <node ref="U6" pin="8" pinfunction="32k_N/DIO10_8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U6-32k_P/DIO11-Pad7)" class="Default">
+      <node ref="U6" pin="7" pinfunction="32k_P/DIO11_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U6-DNC-Pad16)" class="Default">
+      <node ref="U6" pin="16" pinfunction="DNC_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U6-DNC-Pad17)" class="Default">
+      <node ref="U6" pin="17" pinfunction="DNC_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U6-DNC-Pad18)" class="Default">
+      <node ref="U6" pin="18" pinfunction="DNC_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U6-DNC-Pad27)" class="Default">
+      <node ref="U6" pin="27" pinfunction="DNC_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U6-DNC-Pad28)" class="Default">
+      <node ref="U6" pin="28" pinfunction="DNC_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U6-VTCXO-Pad3)" class="Default">
+      <node ref="U6" pin="3" pinfunction="VTCXO_3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U6-XTB-Pad5)" class="Default">
+      <node ref="U6" pin="5" pinfunction="XTB_5" pintype="output+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U7-DNC-Pad13)" class="Default">
+      <node ref="U7" pin="13" pinfunction="DNC_13" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U7-VDD-Pad14)" class="Default">
+      <node ref="U7" pin="14" pinfunction="VDD_14" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

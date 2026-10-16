@@ -70,3 +70,7 @@ User identified SP40N01GHNK sourcing difficulty and asked whether replacement re
 ## OpenRX hardware study — 2026-10-16
 
 Cloned the family hub and all four split receiver repositories with pinned libraries. Opened Lite and its detailed core sheet in KiCad. Recorded architecture, design differences and a quotation-based India manufacturing process. Cost and local stock remain unverified. See openrx-india-study.md.
+
+## Gemini complete BOM — 2026-10-16
+
+Exported the authoritative Gemini schematic through KiCad CLI 10.0.6: 86 references including five copper pads, 81 fitted components and 35 distinct MPN groups. Cross-checked CSV reference coverage against XML netlist. Generated complete per-reference and grouped procurement CSVs. Researched India-facing listings for key parts, recorded backorder/restricted and overseas-only findings without assuming domestic inventory. Full sourcing remains pending on flagged rows. No circuit changes or purchases. See gemini-bom/README.md.
