@@ -66,3 +66,7 @@ User supplied Velox V45A V2 and its Robokits link. Recorded listing claims/stock
 ## MOSFET alternatives in India — 2026-10-15
 
 User identified SP40N01GHNK sourcing difficulty and asked whether replacement requires bootcode changes. Reviewed original MOSFET and driver datasheets, distinguished bootloader from application timing, and recorded a qualification checklist. TI CSD18540Q5B is an educational candidate only, not approved or stock-verified. No hardware or firmware changed. See mosfet-substitution.md.
+
+## OpenRX hardware study — 2026-10-16
+
+Cloned the family hub and all four split receiver repositories with pinned libraries. Opened Lite and its detailed core sheet in KiCad. Recorded architecture, design differences and a quotation-based India manufacturing process. Cost and local stock remain unverified. See openrx-india-study.md.

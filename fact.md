@@ -101,3 +101,7 @@ The developer README explicitly identifies BLHeli_32 as closed source and BLHeli
 ## MOSFET substitution — 2026-10-15
 
 A MOSFET-only substitution normally leaves the bootloader unchanged when MCU, boot/input interface and memory layout remain the same. Electrical suitability must still be established, and application timing/configuration or PCB components may require changes. SP40N01GHNK original datasheet specifies 40 V, maximum 1.5 mΩ at 10 V gate drive/20 A/25°C; its gate-charge test uses 20 V gate drive. No substitute has been qualified. Full evidence, conditions and limits: [mosfet-substitution.md](mosfet-substitution.md).
+
+## OpenRX family — 2026-10-16
+
+Current OpenRX hub routes live sources to Lite, Lite-UFL, Mono and Gemini repositories. Lite variants use SX1281; Mono one LR1121; Gemini two LR1121. Published boards use ESP32-C3 and six-layer PCBs. Evidence and pinned revisions: [openrx-india-study.md](openrx-india-study.md). India unit cost is unresolved, not a confirmed low-cost claim.
